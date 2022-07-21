@@ -1,0 +1,416 @@
+/*Input Your Custom CSS Here*/
+
+.mb-2{
+  margin-bottom: 2em;
+}
+.mt-3{
+  margin-top: 3em;
+}
+.mb-3{
+  margin-bottom: 3em;
+}
+.mt-5{
+  margin-top: 5em;
+}
+.m-1{
+  margin: 1em;
+}
+.p-1{
+  padding: 1em;
+}
+.plr-1{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+a:link,
+a:visited{
+  color: #2d9efd;
+}
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0);
+}
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.shadow-sm:hover{
+  box-shadow: 0 .50rem .25rem rgba(0,0,0,.075)!important;
+}
+.hd-sec {
+    background: #1599e9 none repeat scroll 0 0;
+}
+.btn.appoitment-btn {
+    background: rgba(253, 0, 0, 0.9) none repeat scroll 0 0;
+}
+.btn.appoitment-btn:hover{
+  background: rgba(253, 0, 0, 1) none repeat scroll 0 0;
+}
+.navbar-default{
+  margin-bottom: 0;
+  padding: 5px 0;
+}
+.navbar-brand{
+  padding: 0;
+}
+.navbar-brand img{
+  height: 50px;
+}
+.navbar-default .navbar-nav>li>a{
+  color: #333;
+  font-weight: 600;
+}
+.navbar-default .navbar-nav>li>a.active, .navbar-default .navbar-nav>li>a:hover{
+  color: #1599e9;
+}
+.dropdown-menu{
+  background: #1599e9;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu>li>a{
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+}
+@media (min-width: 768px){
+  .navbar-right .dropdown-menu {
+    left: 0;
+    right: auto;
+  }
+}
+h2.box-header:after {
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.box-header:after {
+    display: block;
+    content: "";
+    background: #479fd7;
+    width: 40px;
+    height: 2px;
+    margin-top: 13px;
+}
+.btn-city{
+  border-radius: 50px;
+  background-color: #1599e9;
+  border-color: #1599e9;
+}
+.btn-city:hover{
+  color: #1599e9;
+  background-color: #fff;
+  border-color: #1599e9;
+}
+.slider-text p {
+    font-size: 24px;
+}
+.service .single-service{
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.service .single-service:hover{
+  box-shadow: 0 .50rem .25rem rgba(0,0,0,.075)!important;
+}
+.service .single-service .service-text{
+  padding: 1em;
+}
+.brand-sec img, .package-sec img{
+  width: 100%;
+}
+.hd-rgt li a:link,
+.hd-rgt li a:visited,
+.hd-lft li a:link,
+.hd-lft li a:visited,
+.hd-rgt li a i,
+.hd-lft li a i{
+  color: #fafafa;
+}
+.hd-rgt li a:hover,
+.hd-lft li a:hover{
+  color: #fff;
+}
+.hd-lft .btn.appoitment-btn{
+  color: #fafafa;
+}
+.nav li a{
+  text-transform: uppercase;
+}
+.slider-text h2{
+  font-size: 40px;
+  font-weight: 900;
+}
+.abt-img img{
+  border-left: 10px solid #038cfc;
+  border-bottom: 10px solid #038cfc;
+}
+.abt-lft .fa{
+  color: #038cfc
+}
+.hexagon {
+  position: relative;
+  width: 120px;
+  height: 69.28px;
+  background-color: transparent;
+  margin: 0 auto;
+  border-left: solid 2px #1599e9;
+  border-right: solid 2px #1599e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 84.85px;
+  height: 84.85px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 15.5736px;
+}
+
+.hexagon:before {
+  top: -42.4264px;
+  border-top: solid 2.8284px #1599e9;
+  border-right: solid 2.8284px #1599e9;
+}
+
+.hexagon:after {
+  bottom: -42.4264px;
+  border-bottom: solid 2.8284px #1599e9;
+  border-left: solid 2.8284px #1599e9;
+}
+.hexagon img{
+  width: 70px;
+}
+.hexa-box h4{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.service .panel{
+  border: 1px solid rgba(0,0,0,.125);
+}
+.single-service .panel-body{
+  padding: 0;
+}
+.single-service h3{
+  margin: 0;
+  color: #fafafa;
+}
+.single-service .panel-footer a{
+  color: #1599e9;
+}
+.brand-sec .inner-item .panel{
+  border: 1px solid rgba(0,0,0,.125);
+}
+a.btn-theme {
+    background: #2d9efd none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+a.btn-theme:hover {
+    background: #424242 none repeat scroll 0 0;
+    transition: all 0.4s ease 0s;
+    color: #fff;
+}
+a.btn-theme-secondary {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 12px 36px;
+    text-transform: uppercase;
+    color: #fff;
+}
+a.btn-theme-secondary:hover{
+  background: #424242;
+  transition: all 0.4s ease-in-out 0s;
+  color: #fff;
+  border-color: #424242;
+}
+.footer-wedget-two li a:hover{
+  color: #fafafa;
+}
+
+/* Whatsapp widget */
+
+.wa-widget {
+    bottom: 21px;
+    left: 23px;
+    opacity: 1;
+    transition: opacity 0.5s ease 0s;
+    box-sizing: border-box;
+    direction: ltr;
+    position: fixed !important;
+    z-index: 16000160 !important;
+}
+
+.wa-widget .inner > * {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+    box-sizing: border-box !important;
+}
+.wa {
+    display: flex;
+    margin-top: 14px;
+    position: relative;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+.wa a:hover {
+    box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 11px;
+}
+.wa a {
+    width: 50px;
+    height: 50px;
+    order: 2;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 6px;
+    transition: all 0.5s ease 0s;
+    position: relative;
+    z-index: 200;
+    display: block;
+    border: 0px;
+    background: rgb(77, 194, 71) !important;
+}
+
+/* Service Section */
+
+.service-sec h2.box-header:after{
+  margin: 0;
+  margin-top: 20px;
+}
+.service-sec ul{
+  margin-bottom: 20px;
+}
+.service-img .col-md-12 img {
+  width: 100%;
+  border-right: 5px solid #2d9efd;
+  border-top: 5px solid #2d9efd;
+  margin-bottom: 15px;
+}
+.service-img .col-md-6 img {
+  width: 100%;
+  border-bottom: 5px solid #2d9efd;
+}
+.service-img .col-md-6:last-of-type img {
+  border-right: 5px solid #2d9efd;
+}
+
+/* Booking Section */
+
+.booking-form {
+    background-color: #fff;
+    padding: 30px 20px;
+    -webkit-box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+.booking-form .form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+.booking-form .form-label {
+    display: inline-block;
+    color: #3e485c;
+    font-weight: 700;
+    margin-bottom: 6px;
+    margin-left: 7px;
+}
+.booking-form .form-control {
+    background-color: #ebecee;
+    border-radius: 4px;
+    border: none;
+    height: 40px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #3e485c;
+    font-size: 14px;
+}
+.booking-form .submit-btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #2d9efd;
+    font-weight: 700;
+    padding: 14px 30px;
+    border-radius: 4px;
+    border: none;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+.booking-form .submit-btn:hover {
+    background-color: #424242;
+}
+
+.booking-cta h1 {
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Contact Form */
+
+.contact-field .single-input-field{
+  margin-bottom: 30px;
+}
+.contact-field input {
+    margin-bottom: 0px;
+}
+label.error{
+  color: red;
+  font-weight: 400;
+}
+.brand-content{
+  max-width: 80%;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 10%
+}
+.bg-theme{
+  background: #2d9efd;
+}
+.p-0{
+  padding: 0 !important;
+}
+a.cta{
+  color: #fff;
+  font-family: "Raleway", Sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1.25em;
+  letter-spacing: 0px;
+}
+a.cta:hover i{
+  color: #fff;
+}
+.text-white{
+  color: #fff;
+}
+.call-to-action-text p{
+  margin-top: 20px;
+  color: #f2f2f2;
+}
+.panel-theme{
+  border-color: #2d9efd;
+}
+.panel-theme .panel-heading{
+  background: #2d9efd;
+  color: #fff
+}
